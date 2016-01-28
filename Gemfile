@@ -9,7 +9,7 @@ gem 'rails', '4.2.5.1'
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git', :ref => '49aebde'
 
 # Use sqlite3 as the database for Active Record
-gem 'mysql12'
+gem 'mysql2', '~> 0.3.18'
 
 gem 'haml'
 gem 'haml-rails', :group => :development
